@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Selfies</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+</head>
+
+<body>
+    <a href="" id="link" download="foto.jpeg"></a>
+    <div class="container">
+        <center>
+            <h1>
+                Selfies com voz
+                <img src="th (1).jpg" id="logo" alt=" imagem de um microfone gravando">
+            </h1>
+            <hr>
+            <h4 class="Exp">pressione permitir para usar o microfone e dar comandos ao computador</h4>
+            <div class="form-group">
+                <h3>diga"selfie"</h3>
+                <label>O que você disse:</label>
+                <textarea class="form-control" id="caixa-de-texto" readonly="true"></textarea>
+            </div>
+            <button class="btn btn-primary" onclick="XIS()">pressione antes de falar</button>
+            <br>
+            <label>sua webcam:</label>
+            <div id="camera"></div>
+
+            <br>
+
+            <label>suas fotos aqui:</label>
+            <div id="foto"></div>
+            <br>
+            <div id="foto2"></div>
+            <br>
+            <div id="foto3"></div>
+    </div>
+    </center>
+    <script src="main.js"></script>
+</body>
+
+</html>
